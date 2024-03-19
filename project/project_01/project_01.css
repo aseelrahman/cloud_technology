@@ -1,7 +1,42 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
 
+main{
+    flex-wrap: wrap;
+    display: flex;
+ }
+/* --- About & Capital --- */
+
+div.fimg, article.fcont{
+    width: 48%;
+    flex-wrap: wrap;
 }
-img.img01{
-    width: 80%;
-    height: 80%;
+img.fig_img_01, img.fig_img_02{
+    border-radius: 5px;
 }
+
+ figure.about, figure.capital{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-top: 5%;
+ }
+.heading{
+    text-align: center;
+    font-size: 2em;
+}
+.sheading{
+    text-align: center;
+}
+
+.content{
+    text-align: justify;
+}
+
+ 

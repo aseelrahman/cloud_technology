@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2em;
+}
+nav.navbar a{
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 10px;
+    font-weight: 600;
+}
+nav.navbar a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    transition: 800ms;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
