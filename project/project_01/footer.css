@@ -1,0 +1,28 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(224, 244, 195);
+    margin-top: 2%;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+div.fcard{
+    width: 400px;
+    margin: 1%;
+}
+div.creator{
+    box-sizing: border-box;
+    font-size: 1.5em;
+    text-align: center;
+}
+div.list{
+    margin-left: 20%;
+}
+.fcimg{position: relative;
+    width: 5%;
+}

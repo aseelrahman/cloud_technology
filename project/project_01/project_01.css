@@ -17,6 +17,10 @@ div.fimg, article.fcont{
     width: 48%;
     flex-wrap: wrap;
 }
+div.fimg:hover, article.fcont:hover{
+    transform: scale(1.02);
+    transition: 500ms;
+}
 img.fig_img_01, img.fig_img_02{
     border-radius: 5px;
 }
